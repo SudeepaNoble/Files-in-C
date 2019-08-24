@@ -1,8 +1,10 @@
 # Files-in-C
 Using fread()
-Using fread() to read the details from a file
 
+
+Reading contents from a file using fread()
 ************Program************
+    
     #include<stdio.h>
     #include<string.h>
     #define LENGTH 50
