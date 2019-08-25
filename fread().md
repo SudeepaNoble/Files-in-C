@@ -23,7 +23,7 @@ Reading contents from a file using fread()
       printf("Account details are: ");
       while((fread(&c1,sizeof(struct Customer),1,fp))==1)
       {
-        printf("\nAccount_Number: %d,Name: %s,Balance_Amount: %d",c1.account_number,c1.name,c1.balance_amount);
+        printf("\n\nAccount_Number: %d,Name: %s,Balance_Amount: %d",c1.account_number,c1.name,c1.balance_amount);
       }
       fclose(fp);
     }
